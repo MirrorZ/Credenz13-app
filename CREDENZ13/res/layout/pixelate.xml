@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F6FB"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Pixelate" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="410dp" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:text="Paint a virtual canvas, carve an impression and give shape to your thoughts. Pixelate welcomes your digital artistry and designing skills. Portray your skills in Adobe Photoshop and Corel Draw to create a world class poster."
+                android:textSize="14sp"
+                android:textStyle="bold" />
+				
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView1"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/format" 
+                />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/imageView1"
+                android:layout_marginTop="12dp"
+                android:text="Team: 1-2 members\nRegistration Fee : Rs. 150 (Non IEEE) Rs. 120 (IEEE)\n\nQuestion:\nGiven a scenario that the 2024 Olympics Games are to be hosted in India, design a poster portraying your thoughts and views about the same. You are also required to submit an abstract of 50-100 words describing your perspective and design of the poster.\n\nFormat:\nRound 1:\ni.   Each team will design a promo poster based on the given theme.\nii.  Design to be submitted in *.psd format\niii. Last date for soft copies: 18.08.2013\niv.  Short listed participants will be informed via email and the names will be displayed on the website on 25.08.2013.\nv.   All brushes, fonts, external images must be mentioned.\nRound 2:\ni.   Team will be given a topic on the spot to design poster.\nii.  Time allotted: 3 hours\niii. Teams may bring any custom brushes, fonts, textures of their choice\niv. 20 minutes of internet will be allowed during the round\n\nMore details: www.credenz.info/pixelate.php."
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView2"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/jc" 
+                />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/imageView2"
+                android:layout_marginTop="12dp"
+                android:text="1. Originality and creativity of the design\n2. Distinctive features incorporated into the poster\n3. Persuasiveness of the design\n4. Layering and masking"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imageView3"
+                android:layout_marginTop="12dp"
+                android:text="Manali Desai: \nP: (+91) 8805945180\nHarsh Baheti: \nP: (+91) 9890369808\nEmail: pixelate@credenz.info"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView3"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/contact" />
+
+            <ImageButton
+                android:id="@+id/reg_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView4"
+                android:layout_centerHorizontal="true"
+                android:padding="0dp"
+                android:paddingBottom="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingTop="0dp"
+                android:background="@null"
+                android:src="@drawable/reg_button" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    
+</RelativeLayout>

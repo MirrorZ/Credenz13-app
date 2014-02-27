@@ -1,0 +1,123 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F6FB"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MAD" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:padding="0dp"
+        android:paddingBottom="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:text="The stage is set for the most unique presentations of all time. Here at My Amazing Discovery (M.A.D) talks, the world is yours, open to what most would call absurd. But we know for all they say it may be sheer brilliance. As they say GREAT MINDS THINK ALIKE!"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView1"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/format" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/imageView1"
+                android:layout_marginTop="12dp"
+                android:text="Team: 1-3 members\nRegistration Fee: Rs. 150 (Non IEEE)	Rs. 120 (IEEE)\n\nFormat:\n1. Soft copy (PDF file only) of abstract to be submitted.\n2. The soft copy should be mailed to madtalks@credenz.info.\n3. Last date for soft copies: 18.08.2013.\n4. Short listed participants will be informed via email and the names will be displayed on the website on 25.08.2013.\n5. Selected participants will have to present a 15 minute POWERPOINT presentation followed by a question-answer session.\n6. The proposed concept should be innovative, feasible and ORIGINAL\n\nMore details: www.credenz.info/mad.php."
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView2"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/jc" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/imageView2"
+                android:layout_marginTop="12dp"
+                android:text="1. Originality and feasibility of idea\n2. Hypothesis must be scientifically valid\n3. Presentation skills"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imageView3"
+                android:layout_marginTop="12dp"
+                android:text="Arundhati Sawant:\nP: (+91) 9637176627\nAman Nigam:\nP: (+91) 9922019667\nEmail: madtalks@credenz.info"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView3"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/contact" />
+
+        	<ImageButton 
+        	    android:id="@+id/reg_button" 
+        	    android:layout_width="wrap_content" 
+        	    android:layout_height="wrap_content" 
+        	    android:layout_alignParentBottom="true" 
+        	    android:layout_centerHorizontal="true" 
+        	    android:padding="0dp"
+        	    android:paddingBottom="0dp" 
+        	    android:paddingLeft="0dp" 
+        	    android:paddingRight="0dp" 
+        	    android:paddingTop="0dp" 
+        	    android:layout_below="@+id/textView4" 
+        	    android:layout_marginTop="12dp" 
+        	    android:background="@null"
+        	    android:src="@drawable/reg_button" />
+        </RelativeLayout>
+
+    </ScrollView>
+
+    
+
+</RelativeLayout>

@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F6FB"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".XOdia" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="674dp" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:text="XOdia is a free online event which is being introduced this Credenz. C/C++ Codes will battle it out in this unique game designed for two players. Make your code play for you. This is an opportunity to test your programming skills, thinking strategy, and code efficiency. Can your code be exodia, the undefeatable?"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView1"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/format" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/imageView1"
+                android:layout_marginTop="12dp"
+                android:text="Team: Individual\nRegistration: Free (Online)\n\nYou will have to mail the source code of your bot at xodia@credenz.info by 28th August, 2013.\n\nSTRUCTURE:\n1. It consists of an 18X18 grid, 'xoboard', where each cell is initially a '.'(dot).\n2. There is another 18X18 grid, 'wboard', made up of four SOLVED SUDOKU BOARDS.\n3. These grids are equivalent in the sense that a number on the wboard represents the weight of each cell in xoboard.\n4. The two players will be BotX and BotO.\n5. In each move, BotX will place an X and BotO will place an O on the xoboard. This will cause the eight cells surrounding that cell to become x or o.\n6. After BotX plays its turn, an o (of O's previous turn) turns into an O. Similarly after BotO's turn, an x (of X's previous turn) will turn into an X.\n7. X or x can overwrite o, O or o can overwrite x, but X and O CAN NOT BE OVERWRITTEN.\n8. The game ends when the xoboard contains only Xs and Os.\n9. A player wins when the combined weight of the cells he has conquered is greater than that of his opponent."
+                android:textSize="14sp"
+                android:textStyle="bold" />
+            
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView2"
+                android:layout_marginTop="12dp"
+                android:text="RULES:\n1. The main() function MUST BE OF RETURN TYPE int.\n2. A bot will be given the contents of wboard and current state of xoboard (read: input file details) for its reference.\n3. The bot should print its move to stdout in the format 'x y' (Without the quotes, x and y separated by a single space) where x is the x-coordinate and y is the y-coordinate of the cell in the grid where the bot wishes to place its symbol (X or O).\n4. The bot will be disqualified if\n	i.   If it makes an invalid move. (An invalid move is a move which is either out of the limits of the grid or the move tries to place a symbol on top of an already existing X or O).\nii.  If it runs into an infinite loop.\niii. If it exceeds the time limit of program execution i.e. 5 SECONDS.\n\n INPUT FILE DETAILS:\n1. The input file will contain wboard and the current state of xoboard.\n2. The first 18 lines in the file describe the current xoboard where each line describes a row of the grid. Each line has 18 space separated characters describing a row.\n3. The next 18 lines describe the solved Sudoku board in a similar fashion as the grid.\n4. The input file will be piped to the compiled bot. So, it is fine to use scanf/cin to read the grid like it is done traditionally (as if it was being entered manually).\n\nSCORING:\n1. The total number of Xs or Os in a grid will be added AFTER MULTIPLYING them with their respective cell weights.\n2. For fairness; two games will be conducted, where both bot will be given the first chance to make a move.\n3. The average of the score will be taken into account, and winner of the match declared.\n4. Each bot gets to play with every other bot. Points will be given on the basis of a win (2 points), draw (1 point), or a loss (0 points).\n5. The bot at the top of the table at the end wins the battle."
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imageView3"
+                android:layout_marginTop="12dp"
+                android:text="Sudipto Chatterjee\nP: (+91) 9970283475\nRutuja Shah\nP: (+91) 8149102148 \nEmail: xodia@credenz.info"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView3"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/contact" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

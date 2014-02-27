@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CREDENZ13</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main_credenz">Main_credenz</string>
+    <string name="title_activity_about_credenz">About Credenz</string>
+    <string name="title_activity_events">Events</string>
+    <string name="about_us">Credenz is the annual technical symposium organised by the PICT IEEE Student Branch. Inaugurated in 2004, with an aim to celebrate talent, it has prospered to become one of the finest technical events in the country. Credenz not only infuses a competitive spirit among participants, but it also provides an informative edge through various seminars and workshops conducted by eminent industry professionals. Participants get to experience a diversity of events, workshops and seminars on recent technologies.\n\nThe Student branch has always believed in encouraging students to think beyond the academic domain and challenge their potential. With the same objective in mind we aim to make Credenz bigger and better every year. The PICT IEEE Student Branch presents to you Credenz’13 -A confluence of technologies..</string>
+    <string name="title_activity_clash_details">Clash Details</string>
+    <string name="title_activity_clash_structure">Clash Structure</string>
+    <string name="title_activity_clash_rules">Clash Rules</string>
+    <string name="title_activity_clash_contact">Clash Contact</string>
+    <string name="title_activity_paper_details">Paper Presentation Details</string>
+    <string name="title_activity_webweaver_details">Webweaver Details</string>
+    <string name="title_activity_pixelate_details">Pixelate Details</string>
+    <string name="title_activity_roboliga_details">RoboLIGA Details</string>
+    <string name="title_activity_mad_details">M.A.D. Talks Details</string>
+    <string name="title_activity_bplan_details">B-Plan Details</string>
+    <string name="title_activity_quiz_details">Quiz Details</string>
+    <string name="title_activity_nth_details">NTH Details</string>
+    <string name="title_activity_softdev_details">Software Development Details</string>
+    <string name="title_activity_worshop_details">Worshop Details</string>
+    <string name="title_activity_seminars_details">Seminars Details</string>
+    <string name="title_activity_croodle_details">Croodle Details</string>
+    <string name="title_activity_software_dev_details">Software Development Details</string>
+    <string name="title_activity_croodle">Croodle Details</string>
+    <string name="title_activity_xodia">XOdia:CodeVsCode</string>
+
+</resources>

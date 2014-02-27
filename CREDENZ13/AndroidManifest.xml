@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pisb.credenz13"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.pisb.credenz13.Credenz"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pisb.credenz13.Main_credenz"
+            android:label="@string/title_activity_main_credenz" >
+        </activity>
+        <activity
+            android:name="com.pisb.credenz13.About_credenz"
+            android:label="@string/title_activity_about_credenz" >
+        </activity>
+        <activity
+            android:name="com.pisb.credenz13.Events"
+            android:label="@string/title_activity_events" >
+        </activity>
+        <activity
+            android:name="com.pisb.credenz13.Clash"
+            android:label="@string/title_activity_clash_details" >
+        </activity>
+        <activity
+            android:name="com.pisb.credenz13.Clash_structure"
+            android:label="@string/title_activity_clash_structure" >
+        </activity>
+        <activity
+            android:name="com.pisb.credenz13.Clash_rules"
+            android:label="@string/title_activity_clash_rules" >
+        </activity>
+        <activity
+            android:name="com.pisb.credenz13.Clash_contact"
+            android:label="@string/title_activity_clash_contact" >
+        </activity>
+        <activity
+            android:name="com.pisb.credenz13.PaperPresentation"
+            android:label="@string/title_activity_paper_details" >
+        </activity>
+        <activity
+            android:name="com.pisb.credenz13.Webweaver"
+            android:label="@string/title_activity_webweaver_details" >
+        </activity>
+        <activity
+            android:name="com.pisb.credenz13.Pixelate"
+            android:label="@string/title_activity_pixelate_details" >
+        </activity>
+        <activity
+            android:name="com.pisb.credenz13.Roboliga"
+            android:label="@string/title_activity_roboliga_details" >
+        </activity>
+        <activity
+            android:name="com.pisb.credenz13.MAD"
+            android:label="@string/title_activity_mad_details" >
+        </activity>
+        <activity
+            android:name="com.pisb.credenz13.BPlan"
+            android:label="@string/title_activity_bplan_details" >
+        </activity>
+        <activity
+            android:name="com.pisb.credenz13.Quiz"
+            android:label="@string/title_activity_quiz_details" >
+        </activity>
+        <activity
+            android:name="com.pisb.credenz13.NTH"
+            android:label="@string/title_activity_nth_details" >
+        </activity>
+        <activity
+            android:name="com.pisb.credenz13.Softdev_details"
+            android:label="@string/title_activity_softdev_details" >
+        </activity>
+        <activity
+            android:name="com.pisb.credenz13.Workshop"
+            android:label="@string/title_activity_worshop_details" >
+        </activity>
+        <activity
+            android:name="com.pisb.credenz13.Seminars"
+            android:label="@string/title_activity_seminars_details" >
+        </activity>
+        <activity
+            android:name="com.pisb.credenz13.Croodle_details"
+            android:label="@string/title_activity_croodle_details" >
+        </activity>
+        <activity
+            android:name="com.pisb.credenz13.Software_dev"
+            android:label="@string/title_activity_software_dev_details" >
+        </activity>
+        <activity
+            android:name="com.pisb.credenz13.Croodle"
+            android:label="@string/title_activity_croodle" >
+        </activity>
+        <activity
+            android:name="com.pisb.credenz13.XOdia"
+            android:label="@string/title_activity_xodia" >
+        </activity>
+    </application>
+
+</manifest>

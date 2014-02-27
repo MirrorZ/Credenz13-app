@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F6FB"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".NTH" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:text="Hook on to Network Treasure Hunt, an online treasure hunt where participants follow clues and visit different websites to solve riddles. Participants can win prizes for solving a series of strategic clues to lead you on to the right track. Rack your brains to crack the rules, follow the trail and race to the finish to win exciting goodies! This is your chance to challenge your technical skills! So get your magnifying glass, login and sleuth away!"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView1"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/format" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/imageView1"
+                android:layout_marginTop="12dp"
+                android:text="Team: Individual\nRegistration: Free (Online)\n\n1. There will be two Network Treasure Hunts, two weeks and one week prior the main event.\n2. Both the Treasure Hunts are independent. There will be separate winners for both the Treasure Hunts.\n3. It consists 15 to 20 levels each.\n4. Answers will be accepted on the same days via mail at nth@credenz.info\n5. To go to the next level, you need to crack the present level in any possible way.\n\nMore details: www.credenz.info/nth.php"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView2"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/jc" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/imageView2"
+                android:layout_marginTop="12dp"
+                android:text="The person who has cracked the highest number of levels wins. In case of a tie,the one who has reached first on that level is the winner."
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imageView3"
+                android:layout_marginTop="12dp"
+                android:text="Rahul Dhavalikar:\nP: (+91) 9011025761\nVikram Patil:\nP: (+91) 9028749679\nEmail: nth@credenz.info"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView3"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/contact" />
+
+        	<ImageButton 
+        	    android:id="@+id/play_button" 
+        	    android:layout_width="wrap_content" 
+        	    android:layout_height="wrap_content" 
+        	    android:layout_alignParentBottom="true" 
+        	    android:layout_centerHorizontal="true" 
+        	    android:padding="0dp" 
+        	    android:paddingBottom="0dp" 
+        	    android:paddingLeft="0dp" 
+        	    android:paddingRight="0dp" 
+        	    android:paddingTop="0dp" 
+        	    android:layout_below="@+id/textView4"
+        	    android:background="@null"
+        	    android:src="@drawable/play" />
+        </RelativeLayout>
+
+    </ScrollView>
+
+    
+
+</RelativeLayout>
